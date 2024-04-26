@@ -1,0 +1,32 @@
+#include "winver.h"
+
+MAIN ICON "icon.ico"
+VS_VERSION_INFO VERSIONINFO
+    FILEVERSION 0,1,0,0
+    PRODUCTVERSION 0,1,0,0
+    FILEOS 0x4L
+    FILETYPE 0x1L
+    FILESUBTYPE 0x0L
+{
+    BLOCK "StringFileInfo"
+    {
+        BLOCK "0x0409"
+        {
+            VALUE "CompanyName", "Coyote\0"
+            VALUE "FileDescription", "Hotkey binder to move a window\0"
+            VALUE "FileVersion", "0.1.0.0 TP\0"
+            VALUE "InternalName",   "windowMover0.01\0"
+            VALUE "LegalCopyright", "Copyright (c) 2024-2024 Coyote Chen\0"
+            VALUE "OriginalFileName",   "main.exe\0"
+            VALUE "ProductName",    "windowMover\0"
+            VALUE "ProductVersion", "0.01\0"
+        }
+    }
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 0x0409, 1200
+    }
+}
+
+
+
